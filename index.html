@@ -1,46 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Personal Portfolio</title>
-    <style>
-      body {
-        font-family: Arial;
-      }
-      .container {
-        width: 400px;
-        margin: 0 auto;
-        text-align: center;
-      }
-      .title {
-        font-size: 40px;
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-      .button {
-        display: inline-block;
-        margin: 20px 0;
-        padding: 10px 20px;
-        font-size: 16px;
-        background-color: #2196F3;
-        color: #FFF;
-        border: 1px solid #2196F3;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      .button:hover {
-        background-color: #FFF;
-        color: #2196F3;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="title">Personal Portfolio</h1>
-      <p>Welcome to my personal portfolio.</p>
-      <a href="about.html" class="button">About Me</a>
-      <a href="projects.html" class="button">My Projects</a>
-      <a href="resume.html" class="button">My Resume</a>
-      <a href="contact.html" class="button">Contact Me</a>
+
+<head>
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #444;
+      background: #f5f5f5;
+    }
+
+    #container {
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    #header {
+      background: #003399;
+      color: #ffffff;
+      padding: 10px 0;
+    }
+
+    #header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    #nav {
+      background: #cccccc;
+      padding: 10px;
+    }
+
+    #nav li {
+      display: inline;
+      padding: 0 10px;
+    }
+
+    #main {
+      padding: 10px;
+    }
+
+    #main p {
+      text-align: justify;
+    }
+
+    #sidebar {
+      float: right;
+      width: 300px;
+      padding: 10px;
+      background: #dddddd;
+    }
+
+    #footer {
+      clear: both;
+      background: #003399;
+      color: #ffffff;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>My Personal Website</h1>
     </div>
-  </body>
+    <div id="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <p>Welcome to my personal website! Here you'll find information about me, my interests, and how to contact me.</p>
+
+      <p>I'm a web developer who loves to explore new technologies and develop creative solutions. My current focus is on developing mobile applications, but I'm always looking for new challenges.</p>
+    </div>
+    <div id="sidebar">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div id="footer">
+      &copy; 2020 My Personal Website
+    </div>
+  </div>
+</body>
+
 </html>
