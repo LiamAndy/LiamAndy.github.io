@@ -10984,6 +10984,25 @@ p.lead {
   background-color: #0d9e11;
 }
 
+.social-icons .social-icon3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon3:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon3:hover {
+  background-color: #0d9e11;
+}
+
 <!-- -->
 
 .dev-icons {
