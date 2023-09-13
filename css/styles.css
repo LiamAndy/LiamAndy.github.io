@@ -130,14 +130,17 @@ height: 200px !important;
 text-align: center;
 padding: 0px;
 font-size:24px;
-
-background-image: url('assets/img/resume-sc.pdf'); /* Replace with the actual image filename and path */
-background-size: cover; /* Adjusts the image size to cover the button */
-background-repeat: no-repeat; /* Prevents image from repeating */
-color: transparent; /* Makes the button text transparent (invisible) */
-text-shadow: none; /* Removes any text shadow */
-padding: 0; /* Remove padding if needed */
-border: none; /* Remove border if needed */
+}
+.resume-button {
+    background-image: url('assets/img/resume-sc.jpg'); /* Replace with the correct path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    text-shadow: none;
+    padding: 0;
+    border: none;
+    width: 200px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
 }
 
 
