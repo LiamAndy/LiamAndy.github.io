@@ -10946,7 +10946,7 @@ p.lead {
     display: block;
   }
 }
-.social-icons .social-icon {
+.social-icons .social-icon1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -10965,6 +10965,21 @@ p.lead {
   background-color: #348feb;
 }
 <!-- -->
+.social-icons .social-icon2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon2:last-child {
+  margin-right: 0;
+}
 .social-icons .social-icon2:hover {
   background-color: #0d9e11;
 }
