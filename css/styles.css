@@ -131,7 +131,7 @@ text-align: center;
 padding: 0px;
 font-size:24px;
 
-background-image: url('assets/img/resume-sc.png'); /* Replace with the actual image filename and path */
+background-image: url('assets/img/resume-sc.pdf'); /* Replace with the actual image filename and path */
 background-size: cover; /* Adjusts the image size to cover the button */
 background-repeat: no-repeat; /* Prevents image from repeating */
 color: transparent; /* Makes the button text transparent (invisible) */
